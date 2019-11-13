@@ -1,12 +1,22 @@
 {
   "name": "vue-effect-page",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.7",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name vue-effect-page ./src/main.js --mode production",
     "lint": "vue-cli-service lint"
   },
+  "module": "index.js",
+  "main": "dist/vue-effect-page.common.js",
+  "unpkg": "dist/vue-effect-page.common.js",
+  "files": [
+    "dist/*",
+    "src/*",
+    "public/*",
+    "*.json",
+    "*.js"
+  ],
   "dependencies": {
     "core-js": "^3.3.2",
     "vue": "^2.6.10"
@@ -18,7 +28,9 @@
     "babel-eslint": "^10.0.3",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "^2.6.10",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.3.1"
   },
   "eslintConfig": {
     "root": true,

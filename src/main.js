@@ -1,8 +1,13 @@
-import Vue from 'vue'
-import App from './App.vue'
+// Импорт vue компонента
+import Vue from 'vue';
+import VueEffectPage from './components/VueEffectPage.vue';
 
-Vue.config.productionTip = false
+const Components = {
+    VueEffectPage,
+};
 
-new Vue({
-  render: h => h(App),
-}).$mount('#app')
+Object.keys(Components).forEach((name) => {
+    Vue.component(name, Components[name]);
+});
+
+export default Components;

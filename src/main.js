@@ -13,6 +13,7 @@ Vue.use(VueEffectPage)
 
 const router = new VueRouter({
   mode: 'history',
+  base: '/vue-effect-page/',
   routes: [
     {
       path: '/',

@@ -5,7 +5,7 @@ VUE-EFFECT-PAGE - It's VUE JS component for your projects, which allows you to a
 There are a large number of different 3D effects that will make your application excellent.
 Your users will appreciate it.
 
-[View DEMO](https://mee4dy.ru/projects/vue-effect-page)
+[View DEMO](https://mee4dy.github.io/vue-effect-page)
 
 ## Project setup
 ```

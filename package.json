@@ -5,7 +5,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "deploy-gh": "git push -f origin gh-pages"
+    "deploy-gh": "git push origin --delete gh-pages && git subtree push --prefix dist origin gh-pages"
   },
   "module": "component.js",
   "dependencies": {

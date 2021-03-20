@@ -1,4 +1,7 @@
+
 # vue-effect-page
+
+![Запись_2021_03_21_01_46_28_125](https://user-images.githubusercontent.com/38532197/111887687-c4f87500-89e7-11eb-828c-c90615b77c94.gif)
 
 ### Description
 VUE-EFFECT-PAGE - It's VUE JS component for your projects, which allows you to add animation of the effect of switching pages in your SPA application.
@@ -7,25 +10,13 @@ Your users will appreciate it.
 
 [View DEMO](https://mee4dy.github.io/vue-effect-page)
 
-## Project setup
+## Install
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm install vue-effect-page
 ```
 
-### Compiles and minifies for production
+## Usage 
+```javascript
+import VueEffectPage from 'vue-effect-page'
+Vue.use(VueEffectPage)
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

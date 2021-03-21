@@ -94,7 +94,6 @@ export default {
   -webkit-perspective: 1200px;
   -moz-perspective: 1200px;
   perspective: 1200px;
-  overflow: hidden;
   
   @import '../scss/effects.scss';
 

@@ -462,6 +462,7 @@ export default [
     "name":"Sides"
   },
   {
+    "id":"67",
     "outClass":"effect-page-rotateSlideOut",
     "inClass":"effect-page-rotateSlideIn",
     "code":"slide",

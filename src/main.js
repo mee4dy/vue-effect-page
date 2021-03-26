@@ -3,13 +3,16 @@ import VueRouter from 'vue-router';
 import App from './App';
 import Home from './pages/Home';
 import SecondPage from './pages/SecondPage';
-import RandomPage from './pages/RandomPage';
+import AllEffects from './pages/AllEffects';
+import CurrentEffect from './pages/components/CurrentEffect';
 
 import VueEffectPage from './component';
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
 Vue.use(VueEffectPage)
+Vue.use(VueEffectPage)
+Vue.component('CurrentEffect', CurrentEffect)
 
 const router = new VueRouter({
   mode: 'history',
@@ -27,9 +30,9 @@ const router = new VueRouter({
       effect: '5'
     },
     {
-      path: '/random-page',
-      name: 'random-page',
-      component: RandomPage,
+      path: '/all-effects',
+      name: 'all-effects',
+      component: AllEffects,
     },
   ],
 });

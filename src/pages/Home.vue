@@ -1,6 +1,7 @@
 <template>
 	<div id="page">
-		<h4>MAIN PAGE</h4>
+		<h4>HOME PAGE</h4>
+		<CurrentEffect/>
 	</div>
 </template>
 

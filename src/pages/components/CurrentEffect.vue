@@ -4,7 +4,7 @@
             <option v-for="effect, key in $effectPage.effects" :key="key" :value="effect.id">{{ effect.name }}</option>
         </select>
         <div class="info-body">
-            <h4 class="effect-id">{{ effectID }} or {{ $effectPage.effects.length }}</h4>
+            <h4 class="effect-id">{{ effectID }} of {{ $effectPage.effects.length }}</h4>
             <div class="info-line">
                 <div class="value-block" @click="clickToCopy">{{ $effectPage.current.code }}</div> 
                 <i class="fas fa-clipboard-check"></i>

@@ -37,7 +37,15 @@ export default {
         return {
             defaultEffect: 33
         }
-    }
+    },
+    metaInfo() {
+      return {
+        meta: [{
+          name: 'google-site-verification',
+          content: 't9gfS0_MWN2AXm8atc5Dv-A9RfEEc3-Kb7-OqLARfGk',
+        }]
+      }
+    },
 }
 </script>
 

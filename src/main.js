@@ -5,10 +5,12 @@ import Home from './pages/Home';
 import SecondPage from './pages/SecondPage';
 import AllEffects from './pages/AllEffects';
 import CurrentEffect from './pages/components/CurrentEffect';
+import VueMeta from 'vue-meta';
 
 import VueEffectPage from './component';
 
 Vue.config.productionTip = false
+Vue.use(VueMeta)
 Vue.use(VueRouter)
 Vue.use(VueEffectPage)
 Vue.use(VueEffectPage)
